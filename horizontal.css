@@ -1,0 +1,19 @@
+div{
+    margin: auto;
+    width: 400px;
+    line-height: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background: aqua;
+}
+div p {
+    background-color: yellow;
+}
+div+p{
+    background-color: red;
+}
+div~p{
+    background-color: pink;
+}
